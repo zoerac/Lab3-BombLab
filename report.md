@@ -412,19 +412,19 @@ snprintf(out, cap, "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOPEN%u %u %u", mode, second,
 
 运行结果（节选，各关各 seed 均 defused）：
 
-![非公开Seed验证输出](image.png)
+![非公开Seed验证输出](images/seed_extra.png)
 
 逐关截图（只展示前2关）
 
-![第一关](image-1.png)
+![第一关](images/phase1.png)
 
-![第二关](image-2.png)
+![第二关](images/phase2.png)
 
 ## 2.2 公开测试 `public_test.py`
 
 `python3 public_test.py` 对六关 + Secret 关在公开 seed 上全部 PASS：
 
-![部分输出示例](image-3.png)
+![部分输出示例](images/output_sample.png)
 
 结果汇总：六关公开测试 **60/60**，Secret 公开测试 **10/10** 全部通过。
 
